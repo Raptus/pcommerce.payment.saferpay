@@ -1,6 +1,13 @@
 Changelog
 =========
 
+2.0b1 (2010-09-16)
+------------------
+
+plone 4 compatibility
+
+-remove actionsicons because is no more supported in plone 4
+
 0.1a1
 -----
 
