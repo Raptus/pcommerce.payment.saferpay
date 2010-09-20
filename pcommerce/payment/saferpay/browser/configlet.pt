@@ -1,8 +1,8 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+<html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:tal="http://xml.zope.org/namespaces/tal"
       xmlns:metal="http://xml.zope.org/namespaces/metal"
       xmlns:i18n="http://xml.zope.org/namespaces/i18n"
-      lang="en"
+      lang="en" xml:lang="en"
       metal:use-macro="here/prefs_main_template/macros/master"
       i18n:domain="SaferPay">
 
@@ -60,7 +60,7 @@
 
                     <div class="widget">
                         <input id="account_id" name="account_id" value="99867-94913159" type="text"
-                               tal:attributes="value view/values/account_id|request/account_id">
+                               tal:attributes="value view/values/account_id|request/account_id"/>
                     </div>
                 </div>
                 
@@ -80,7 +80,7 @@
                     <div class="widget"
                          tal:define="value view/values/test|request/test">
                         <input id="test" name="test:boolean" value="1" type="checkbox"
-                               tal:attributes="checked python: value and 'checked' or ''">
+                               tal:attributes="checked python: value and 'checked' or ''"/>
                     </div>
                 </div>
                 
@@ -104,7 +104,7 @@
 
                     <div class="widget">
                         <input id="password" name="password" value="" type="text"
-                               tal:attributes="value view/values/password|request/password">
+                               tal:attributes="value view/values/password|request/password"/>
                     </div>
                 </div>
                 
@@ -128,7 +128,7 @@
 
                     <div class="widget">
                         <input id="bodycolor" name="bodycolor" value="" type="text"
-                               tal:attributes="value view/values/bodycolor|request/bodycolor">
+                               tal:attributes="value view/values/bodycolor|request/bodycolor"/>
                     </div>
                 </div>
                 
@@ -152,7 +152,7 @@
 
                     <div class="widget">
                         <input id="headcolor" name="headcolor" value="" type="text"
-                               tal:attributes="value view/values/headcolor|request/headcolor">
+                               tal:attributes="value view/values/headcolor|request/headcolor"/>
                     </div>
                 </div>
                 
@@ -176,7 +176,7 @@
 
                     <div class="widget">
                         <input id="headlinecolor" name="headlinecolor" value="" type="text"
-                               tal:attributes="value view/values/headlinecolor|request/headlinecolor">
+                               tal:attributes="value view/values/headlinecolor|request/headlinecolor"/>
                     </div>
                 </div>
                 
@@ -200,7 +200,7 @@
 
                     <div class="widget">
                         <input id="menucolor" name="menucolor" value="" type="text"
-                               tal:attributes="value view/values/menucolor|request/menucolor">
+                               tal:attributes="value view/values/menucolor|request/menucolor"/>
                     </div>
                 </div>
                 
@@ -224,7 +224,7 @@
 
                     <div class="widget">
                         <input id="bodyfontcolor" name="bodyfontcolor" value="" type="text"
-                               tal:attributes="value view/values/bodyfontcolor|request/bodyfontcolor">
+                               tal:attributes="value view/values/bodyfontcolor|request/bodyfontcolor"/>
                     </div>
                 </div>
                 
@@ -248,7 +248,7 @@
 
                     <div class="widget">
                         <input id="headfontcolor" name="headfontcolor" value="" type="text"
-                               tal:attributes="value view/values/headfontcolor|request/headfontcolor">
+                               tal:attributes="value view/values/headfontcolor|request/headfontcolor"/>
                     </div>
                 </div>
                 
@@ -272,7 +272,7 @@
 
                     <div class="widget">
                         <input id="menufontcolor" name="menufontcolor" value="" type="text"
-                               tal:attributes="value view/values/menufontcolor|request/menufontcolor">
+                               tal:attributes="value view/values/menufontcolor|request/menufontcolor"/>
                     </div>
                 </div>
                 
@@ -296,7 +296,7 @@
 
                     <div class="widget">
                         <input id="font" name="font" value="" type="text"
-                               tal:attributes="value view/values/font|request/font">
+                               tal:attributes="value view/values/font|request/font"/>
                     </div>
                 </div>
                 
@@ -306,7 +306,7 @@
                 <span class="actionButtons">
                     <input name="saferpay_save" value="Save" class="context" type="submit"
                            i18n:domain="plone"
-                           i18n:attributes="value">
+                           i18n:attributes="value"/>
                 </span>
             </div>
 
