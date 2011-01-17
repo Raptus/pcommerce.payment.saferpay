@@ -1,12 +1,17 @@
 Changelog
 =========
 
+1.0b2 (2011-1-17)
+------------------
+- replace propertiestool.xml with setuphandlers. this fix a error
+  with deleted properties by reinstalling the product
+
 1.0b1 (2010-10-20)
 ------------------
 
-plone 4 compatibility
+- plone 4 compatibility
 
--remove actionsicons because is no more supported in plone 4
+  remove actionsicons because is no more supported in plone 4
 
 0.1a1
 -----

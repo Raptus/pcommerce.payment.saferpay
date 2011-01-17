@@ -18,7 +18,15 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       />
-        
+
+  <genericsetup:importStep
+    name="pcommerce.payment.saferpay.various"
+    title="PCommerce Saferpay configuration"
+    description="Configures PCommerce Saferpay properties"
+    handler=".setuphandlers.setupVarious">
+  </genericsetup:importStep>
+  
+  
   <adapter
       factory=".plugin.SaferpayPayment"
       provides="pcommerce.core.interfaces.IPaymentMethod"

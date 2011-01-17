@@ -6,6 +6,8 @@ from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from Products.CMFCore.utils import getToolByName
 
 from Products.CMFPlone import PloneMessageFactory as _p
+from pcommerce.payment.saferpay import config
+
 
 class Configlet(BrowserView):
     """Saferpay configlet
@@ -14,10 +16,11 @@ class Configlet(BrowserView):
     errors = {}
     values = {}
     template = ViewPageTemplateFile('configlet.pt')
-    properties = ('account_id','test','password','bodycolor','headcolor','headlinecolor','menucolor','bodyfontcolor','headfontcolor','menufontcolor','font',)
-    required = ('account_id',)
+    properties = [k.get('name') for k in config.CONFIGLET_PROPERTIES]
+    required = [k.get('name') for k in config.CONFIGLET_PROPERTIES if k.get('required')]
 
     def __call__(self):
+
         self.request.set('disable_border', True)
 
         if self.request.form.has_key('saferpay_save'):
