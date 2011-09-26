@@ -1,12 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pcommerce.payment.saferpay\n"
-"POT-Creation-Date: 2010-03-11 11:32+0000\n"
+"POT-Creation-Date: 2011-09-20 10:36+0000\n"
 "PO-Revision-Date: 2010-03-11 11:32+0000\n"
 "Last-Translator: Simon Kaeser <skaeser@raptus.com>\n"
 "Language-Team: Deutsch <skaeser@raptus.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language-code: de\n"
 "Language-name: Deutsch\n"
@@ -17,32 +18,135 @@ msgstr ""
 "X-Poedit-Country: GERMANY\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+#. Default: "Account ID"
+#: browser/configlet.pt:38
+msgid "Account ID"
+msgstr ""
+
+#. Default: "Account Password"
+#: browser/configlet.pt:90
+msgid "Account Password"
+msgstr ""
+
+#. Default: "Backgroundcolor for the body of the saferpay VT"
+#: browser/configlet.pt:119
+msgid "Backgroundcolor for the body of the saferpay VT"
+msgstr ""
+
+#. Default: "Backgroundcolor for the header of the saferpay VT"
+#: browser/configlet.pt:143
+msgid "Backgroundcolor for the header of the saferpay VT"
+msgstr ""
+
+#. Default: "Backgroundcolor for the menu of the saferpay VT"
+#: browser/configlet.pt:191
+msgid "Backgroundcolor for the menu of the saferpay VT"
+msgstr ""
+
+#. Default: "Bodycolor"
+#: browser/configlet.pt:114
+msgid "Bodycolor"
+msgstr ""
+
+#. Default: "Bodyfontcolor"
+#: browser/configlet.pt:210
+msgid "Bodyfontcolor"
+msgstr ""
+
+#. Default: "Color for the line in the header of the saferpay VT"
+#: browser/configlet.pt:167
+msgid "Color for the line in the header of the saferpay VT"
+msgstr ""
+
+#. Default: "Font"
+#: browser/configlet.pt:282
+msgid "Font"
+msgstr ""
+
+#. Default: "Font-color in the body of the saferpay VT"
+#: browser/configlet.pt:215
+msgid "Font-color in the body of the saferpay VT"
+msgstr ""
+
+#. Default: "Font-color in the header of the saferpay VT"
+#: browser/configlet.pt:239
+msgid "Font-color in the header of the saferpay VT"
+msgstr ""
+
+#. Default: "Font-color in the menu of the saferpay VT"
+#: browser/configlet.pt:263
+msgid "Font-color in the menu of the saferpay VT"
+msgstr ""
+
+#. Default: "Headcolor"
+#: browser/configlet.pt:138
+msgid "Headcolor"
+msgstr ""
+
+#. Default: "Headfontcolor"
+#: browser/configlet.pt:234
+msgid "Headfontcolor"
+msgstr ""
+
+#. Default: "Headlinecolor"
+#: browser/configlet.pt:162
+msgid "Headlinecolor"
+msgstr ""
+
+#. Default: "Menucolor"
+#: browser/configlet.pt:186
+msgid "Menucolor"
+msgstr ""
+
+#. Default: "Menufontcolor"
+#: browser/configlet.pt:258
+msgid "Menufontcolor"
+msgstr ""
+
 #. Default: "Payment processed over Saferpay"
-#: ./browser/confirmation.pt:1
+#: browser/confirmation.pt:7
 msgid "Payment processed over Saferpay"
 msgstr "Zahlung wurde durch Saferpay abgewickelt"
 
-#: ./plugin.py:19
+#: plugin.py:19
 msgid "Payment using Saferpay"
 msgstr "Zahlung über Saferpay"
 
 #. Default: "Payment will be processed over Saferpay"
-#: ./browser/overview.pt:1
+#: browser/overview.pt:7
 msgid "Payment will be processed over Saferpay"
 msgstr "Zahlung wird durch Saferpay abgewickelt"
 
-#: ./plugin.py:18
+#: plugin.py:18
 msgid "Saferpay"
 msgstr "Saferpay"
 
 #. Default: "Saferpay configuration"
-#: ./profiles/default/actionicons.xml
-#: ./profiles/default/controlpanel.xml
+#: browser/configlet.pt:13
 msgid "Saferpay configuration"
 msgstr "Einstellungen Saferpay"
 
+#. Default: "Test Account"
+#: browser/configlet.pt:70
+msgid "Test Account"
+msgstr ""
+
+#. Default: "The fontface used in the saferpay VT"
+#: browser/configlet.pt:287
+msgid "The fontface used in the saferpay VT"
+msgstr ""
+
+#. Default: "The password for the account (only required for test accounts)"
+#: browser/configlet.pt:95
+msgid "The password for the account (only required for test accounts)"
+msgstr ""
+
+#. Default: "The saferpay account-number (e.g. 99867-94913159)"
+#: browser/configlet.pt:51
+msgid "The saferpay account-number (e.g. 99867-94913159)"
+msgstr ""
+
 #. Default: "Payment processed over Saferpay"
-#: ./plugin.py:33
+#: plugin.py:33
 msgid "saferpay_mailinfo"
 msgstr "Zahlung wurde durch Saferpay abgewickelt"
-
