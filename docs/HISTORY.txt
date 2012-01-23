@@ -1,9 +1,10 @@
 Changelog
 =========
 
-1.0b4 (Unreleased)
+1.0b4 (2012-01-23)
 ------------------
 
+* added z3c.autoinclude entry point
 * Fixed translation domain in configlet.pt
 
 1.0b3 (2011-09-01)
@@ -14,6 +15,7 @@ Changelog
 
 1.0b2 (2011-1-17)
 ------------------
+
 * replace propertiestool.xml with setuphandlers. this fix a error
   with deleted properties by reinstalling the product
 
