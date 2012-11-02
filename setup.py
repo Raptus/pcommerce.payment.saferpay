@@ -6,7 +6,7 @@ version = '1.0b4'
 setup(name='pcommerce.payment.saferpay',
       version=version,
       description="A SaferPay payment method for PCommerce",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
@@ -16,7 +16,7 @@ setup(name='pcommerce.payment.saferpay',
       keywords='',
       author='Raptus AG',
       author_email='dev@raptus.com',
-      url='https://svn.plone.org/svn/collective/pcommerce.payment.saferpay',
+      url='https://github.com/Raptus/pcommerce.payment.saferpay',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['pcommerce', 'pcommerce.payment'],
